@@ -437,6 +437,7 @@ fn hardcoded_type(parents: &'_ [impl AsRef<str>], name: impl AsRef<str>) -> Opti
             [IntVector, "last_party_guids"],
             [IntVector, "dungeon_history"],
             [IntVector, "buff_group_guids"],
+            [IntVector, "trinkets", "items", "*", "added_buffs"],
             [IntVector, "result_event_history"],
             [IntVector, "dead_hero_entries"],
             [IntVector, "additional_mash_disabled_infestation_monster_class_ids"],
